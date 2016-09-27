@@ -1,0 +1,34 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+#countries, #states {
+    fill: #cde;
+    stroke: #fff;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    cursor: pointer;
+}
+#countries .active, #states .active {
+    fill: #89a;
+}
+#map {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    width:80%;
+    margin:100px auto;
+}
+.background {
+    fill: none;
+    pointer-events: all;
+}
+path{
+	cursor: pointer;
+}
+#USA-3559{
+    fill:#00f !important;
+    stroke:#ff0;
+}
